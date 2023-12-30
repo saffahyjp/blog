@@ -1,2 +1,1 @@
-# blog
-See issues.
+# See issues.
