@@ -15,5 +15,6 @@ jobs:
           token: ${{ secrets.TELEGRAM_TOKEN }}
           message: |
             New blog: ${{ github.event.issue.title }}
+            
             ${{ github.event.issue.body }}
             Link: https://github.com/${{ github.repository }}/issues/${{ github.event.issue.number }}
